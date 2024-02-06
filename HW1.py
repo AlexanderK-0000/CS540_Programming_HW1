@@ -1,4 +1,4 @@
-#Alexander Kerschen Z237U349
+#Alexander Kerschen
 import subprocess
 #subprocess.run() is being used to run the shell commands
 #it is condsidered more secure than os.system() (Check README.txt for more information)

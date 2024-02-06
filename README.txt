@@ -1,4 +1,4 @@
-Alexander Kerschen Z237U349
+Alexander Kerschen
 
 Instructions for Running:
 	download and install python from: https://www.python.org/downloads/
