@@ -5,7 +5,6 @@ Instructions for Running:
 	Use cd to navigate into the directory containing HW1.py
 	enter "python HW1.py"
 	(Note: Using "python <file_path>/HW1.py" to run the script from outside the directory containing HW1.py, will cause option 5 (type/cat) to break)
-	(Also, reciever.txt starts as an empty text file, but will contain the contents of sender.txt after a single run of option 5)
 	Once the script is running
 		Option 1) Uses dir to print the contents of the working directory
 		Option 2) Uses cd to print the file path of the working directory

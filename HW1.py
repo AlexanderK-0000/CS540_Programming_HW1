@@ -43,8 +43,8 @@ while(True):
         output = subprocess.run(f"echo {message}", shell=True)
         ErrorHandling(output)
     elif choice == "5": #concat/print a file (type/cat)
-        subprocess.run(f'echo Runs the command: "type sender.txt > reciever.txt | type reciever.txt"{n}"type sender.txt > reciever.txt" puts the contents of sender.txt into reciever.txt{n}"type reciever.txt" prints the contents of reciever.txt to the console{n}Command Output:', shell=True)
-        output = subprocess.run("type sender.txt > reciever.txt | type reciever.txt", shell=True)
+        subprocess.run(f'echo Runs the command: "type sender.txt >> reciever.txt && type reciever.txt"{n}"type sender.txt >> reciever.txt" adds the contents of sender.txt onto the end of reciever.txt{n}"type reciever.txt" prints the contents of reciever.txt to the console{n}Command Output:', shell=True)
+        output = subprocess.run("type sender.txt >> reciever.txt && type reciever.txt", shell=True)
         ErrorHandling(output)
     elif choice == "6": #Exit
         break #Exits the loop, ending the program

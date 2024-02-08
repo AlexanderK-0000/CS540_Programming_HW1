@@ -1,1 +1,1 @@
-Text originating in sender.txt
+"Text originating in sender.txt"
